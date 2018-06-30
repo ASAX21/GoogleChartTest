@@ -1,0 +1,7 @@
+"cp -r source directory" copy all files in the directory to the target folder.
+
+"pushd +n" use to save path into a stack for fast access, "popd +n" use to delete 
+
+"dirs" shows all path in the stack.
+
+"~/" means the home path to the root.
