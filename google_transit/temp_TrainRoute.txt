@@ -1,6 +1,0 @@
-WES-RAI-1827,Joondalup Line
-WES-RAI-1828,Midland Line
-WES-RAI-1829,Fremantle Line
-WES-RAI-1830,Armadale Line
-WES-RAI-1831,Thornlie Line
-WES-RAI-1865,Mandurah Line
