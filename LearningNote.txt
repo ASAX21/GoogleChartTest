@@ -5,3 +5,25 @@
 "dirs" shows all path in the stack.
 
 "~/" means the home path to the root.
+
+github uses SSH (secure shell) protocal, which requires user to copy the ssh from local to the server.
+
+'ssh-agent -s' to start ssh-agent
+'ssh-add ~/.ssh/id_rsa'
+'clip<~/.ssh/id_rsa.pub' to copy the key in .pub to the clipboard.
+paste the key to user setting on github to pair.
+ssh —T git@github.com to check status of connection.
+
+For changes that are not tracked, use 'git add' to sync the local changes before 'git push' it to the server.
+
+'git remote add name git@github.com:Directory/directory' add new repository to server or link the local directory to it.
+
+'git branch name' to create new branch,
+'git checkout branchname' switch to branch.
+'git merge branchname',
+'git branch -d branchname'
+'git branch branch1 branch2' show difference between two branches.
+
+'git reset --hard versionname' to reset the project to a specific version
+
+
