@@ -31,7 +31,7 @@ awk '
 
 BEGIN   {
             if(ARGC == 5) {
-                printf("%i\n", haversine(ARGV[1],ARGV[2],ARGV[3],ARGV[4]));
+                printf("%i", haversine(ARGV[1],ARGV[2],ARGV[3],ARGV[4]));
             }
             else {
                 printf("Usage: %s lat1 lon1 lat2 lon2\n", ARGV[0]);
